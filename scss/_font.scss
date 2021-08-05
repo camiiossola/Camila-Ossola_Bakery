@@ -1,0 +1,70 @@
+/*FONTS*/
+
+    /* Font logo*/
+    @font-face {
+        font-family: 'hatton';
+        src: url(../assets/font/Hatton/Hatton-Semibold.otf);}
+    
+    /*Font general*/
+    @font-face {
+        font-family: 'cabin' ;
+        src: url(../assets/font/Cabin/Cabin-VariableFont_wdth\,wght.ttf);}
+    
+    @font-face {
+        font-family: 'playfairDisplay';
+        src: url(../assets/font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);}
+
+
+body {
+    .blog__titulo--font {
+    font-family: playfairDisplay;}
+
+    .blog__subTitulo--font {
+        font-family: playfairDisplay;}
+
+    .blog__texto--font {
+        font-family: cabin;}  
+
+    .header__navbar--font {
+        .navbar-brand {font-family: hatton;}
+        a{font-family: playfairDisplay;}}}
+
+
+
+.section__titulos--font {
+    h1 {
+        font-family: playfairDisplay;
+        font-size: 250%;
+        font-style: normal;
+        letter-spacing: 5px;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 30px;}
+    h3 {
+        font-family: playfairDisplay;
+        font-size: 100%;
+        font-style: italic;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-bottom: 15px;}
+    div p {
+        font-family: cabin;
+        text-align: justify;}}
+
+.productos__titulos--font div {
+    div h4 {
+        font-family: playfairDisplay;
+        text-align: center;}
+    div h5 {
+        font-family: playfairDisplay;
+        text-align: center;}}
+
+.blog__card--font div {
+    .card-title {
+        font-family: playfairDisplay;
+        text-align: center;}
+    .card-text {
+        font-family: cabin;
+        text-align: justify;}
+    a {font-family: cabin;}}
+

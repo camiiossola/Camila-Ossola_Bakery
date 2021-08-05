@@ -1,0 +1,24 @@
+$marron: brown;
+$negro: black;
+
+
+.blog__titulo--color {
+    color: $marron;}
+
+.blog__subTitulo--color {
+    color: $marron;}
+
+.blog__texto--color {
+    color: $negro;}
+
+.section__titulos--color {
+    h1 {
+        color: brown;}
+    h3 {
+        color: brown;}}
+
+.blog__card--color div {
+    .btn {
+        color: rgb(255, 255, 255);
+        background-color: brown;}
+}
